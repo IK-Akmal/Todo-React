@@ -1,0 +1,24 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Comfortaa", sans-serif;
+  color: #484949;
+}
+
+.columns-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  overflow-x: auto;
+}
+
+.about-page,
+.todo-page {
+  background-color: white;
+  border-radius: 8px;
+  padding: 25px;
+  margin-top: 75px;
+}

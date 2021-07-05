@@ -1,0 +1,9 @@
+.layout {
+  min-height: 100vh;
+  background-image: url("../../photo_2021-02-24_14-47-02.jpg");
+  background-size: cover;
+  background-position: fixed;
+  background-color: rgba(255, 255, 255, 0.7);
+  background-blend-mode: lighten;
+  padding-bottom: 50px;
+}

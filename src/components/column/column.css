@@ -1,0 +1,38 @@
+.column {
+  padding: 15px;
+  border-radius: 8px;
+  width: 32%;
+  min-height: 85vh;
+  background: #f4fafa;
+}
+
+.column__title {
+  margin-bottom: 40px;
+  font-weight: 700;
+}
+
+@media screen and (max-width: 991px) {
+  .column {
+    min-width: 48%;
+    width: 100%;
+    margin-right: 25px;
+  }
+  .column:last-child {
+    margin-right: 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .column {
+    min-width: 75%;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .column {
+    min-width: 100%;
+  }
+  .column__title {
+    margin-bottom: 20px;
+  }
+}
